@@ -40,4 +40,4 @@ class AdvancedQuery {
     return this;
   }
 }
-module.exports = AdvancedQuery;
+
