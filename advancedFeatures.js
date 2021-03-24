@@ -1,4 +1,4 @@
-class AdvancedFeatures {
+class AdvancedQuery {
   constructor(query, queryString) {
     this.query = query;
     this.queryString = queryString;
@@ -40,4 +40,4 @@ class AdvancedFeatures {
     return this;
   }
 }
-module.exports = APIFeatures;
+module.exports = AdvancedQuery;
