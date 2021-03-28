@@ -10,9 +10,11 @@ const Google_DB = [
   "PWA.com",
 ];
 
-const Search = (inputSearch) => {
-  const matches = Google_DB.filter((website) => {
+const Search = (inputSearch, db) => {
+  const matches = db.filter((website) => {
     return website.includes(inputSearch);
   });
   return matches.length > 3 ? matches.slice(0, 3) : matches;
 };
+
+// search('k8s',Google_DB )
